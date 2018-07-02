@@ -1,0 +1,10 @@
+ Encode:
+
+ Symbol		Windows-1252		UTF-8
+
+ space			%20			 	%20
+   á			%E1				%C3%A1
+   è			%E8				%C3%A8
+   ö			%F5				%C3%B5
+   <			%3C				%3C
+   )			%29				%29

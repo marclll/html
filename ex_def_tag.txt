@@ -1,0 +1,22 @@
+Definition of the next tags:
+
+- <br>		inserts a single line break
+- <hr>		defines a thematic break in an HTML page, it is used to separate content
+- <ul>		defines an unordered list which items are defined with <li>
+- <ol>		defines an ordered list which items are defined with <li>
+- <li>		defines a list item
+- <strong> 	defines important text and turns this text into bold
+- <em> 		renders as emphasized text and turns this text into italics
+- <b>		specifies bold text
+- <i>		specifies italics text
+- <u>		specifies underlined text
+- <sub>		defines subscript text
+- <sup>		defines superscript text
+- <h1>		defines the most important heading
+- <h6>		defines the least important heading
+- <tr>		defines a row in an HTML table
+- <th>		defines a header cell in an HTML table
+- <td>		defines a standard cell in an HTML table
+- <legend>	defines a caption for the <fieldset> element
+
+- An empty tag is a tag that has no end tag. (Ex: <br> , <hr>)
