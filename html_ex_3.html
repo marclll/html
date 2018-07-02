@@ -5,6 +5,7 @@
 	</head>
 	<body>
 		<form action="/action_page.php">
+
 			<label for="color"> Color: </label>
 			<input type="color" name="color" id="color" value="#2fb8d0">
 			<br><br>
@@ -17,6 +18,8 @@
  				Size: <input type="range" name="range" value="4" step="2"><br>
  				Url: <input type="url" name="url" placeholder="http://www.google.com"><br>
 			</fieldset>
+			<br><br>
+
 
 			<select name="colors">
 				<optgroup label="Cold">
@@ -28,8 +31,41 @@
 					<option value="yellow" selected>Yellow</option>
 				</optgroup>
 			</select>
-
 			<br><br>
+
+
+			<input list="colors" name="color">
+			<datalist id="colors">
+				<option value="Blue"></option>
+				<option value="Red"></option>
+				<option value="Yellow"></option>
+				<option value="Green"></option>
+			</datalist>
+			<br><br>
+
+
+			<label for="male">Male: </label>
+			<input type="radio" name="gender" value="male" id="male" checked><br>
+			<label for="female">Female: </label>
+			<input type="radio" name="gender" value="female" id=”female”><br>
+			<label for="other">Other: </label>
+			<input type="radio" name="gender" value="other" id=”other”><br>
+			<br><br>
+
+			<input type="checkbox" name="gender2" value="NB"> Non-binary <br>
+			<input type="checkbox" name="gender3" value="AH"> Apache Helicopter <br>
+			<br><br>
+
+			<textarea name="message" rows="10" cols="30">
+				You need to be careful with textareas because, for example, this line is one line 
+				break from the start, so sometimes you are adding spaces or breaks without knowledge of it.
+			</textarea>
+			<br><br>
+
+
+
+
+			<br>
 			<input type="submit" value="Submit">
 		</form>
 	</body>
