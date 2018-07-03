@@ -2,27 +2,82 @@
 <html>
 	<head>
 		<title>Curriculum</title>
+		<style>
+			table, tr, td ,th {
+				border: 1px solid black;
+				border-collapse: collapse;
+			}
+			th,td{
+				padding: 4px;
+				width: 20%;
+				text-align: center;
+			}
+		</style>
 	</head>
 	<body>
-		<h1>Curriculum</h1>
+		<h1 id="top">Curriculum</h1>
 		<hr>
+		<a href="#end">End</a>
 		<section>
-			<b>Name: </b>
-			<span>Your name</span>
-			<br>
-			<b>Age: </b>
-			<span>Your age</span>
-			<br>
-			<b>Phone number: </b>
-			<span>Your phone number</span>
-			<br>
-			<b>Address: </b>
-			<span>Your address</span>
-			<br>
-			<img src="image.jpg" alt="Image" width="120" height="200" />
+			<fieldset width=40%>
+				<legend>Personal information:</legend>
+				
+				<span><b>Name: </b>Your name</span> <br>
+				<span><b>Age: </b>Your age</span> <br>
+				<span><b>Phone number: </b>Your phone number</span> <br>
+				<span><b>Address: </b>Your address</span> <br>
+			</fieldset>
+			<br><br>
+			<img src="image.jpg" alt="Profile image" width="120" height="200" />
 			<iframe width="300" height="200" src="https://www.youtube.com/embed/jTc3ShyuDV0?start=5" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</section>
+		<br><br>
 		<section>
+			<p><b>Current studies: </b></p>
+			<ul>
+				<li>Nunc in quam a felis pulvinar lacinia a id nisl. Curabitur non est vestibulum, vehicula lacus eu, semper diam.</li>
+				<li>Orci varius natoque penatibus et magnis dis parturient montes.</li>
+				<li>Sed commodo eget augue nec interdum.</li>
+			</ul>
+			<p><b>Professional goals: </b></p>
+			<ul>
+				<li>Nunc in quam a felis pulvinar lacinia a id nisl. Curabitur non est vestibulum, vehicula lacus eu, semper diam.</li>
+				<li>Orci varius natoque penatibus et magnis dis parturient montes.</li>
+				<li>Sed commodo eget augue nec interdum.</li>
+				<li>Aenean luctus at ex cursus euismod. Praesent dolor justo, volutpat non sollicitudin eget, tincidunt quis nisl.</li>
+			</ul>
+			<p><b>Best qualities: </b></p>
+			<ol>
+				<li>Nunc in quam a felis pulvinar lacinia a id nisl. Curabitur non est vestibulum, vehicula lacus eu, semper diam.</li>
+				<li>Orci varius natoque penatibus et magnis dis parturient montes.</li>
+				<li>Sed commodo eget augue nec interdum.</li>
+				<li>Aenean luctus at ex cursus euismod. Praesent dolor justo, volutpat non sollicitudin eget, tincidunt quis nisl.</li>
+				<li>Orci varius natoque penatibus et magnis dis parturient montes.</li>
+			</ol>
 		</section>
+			<p><b>Language and level: </b></p>
+			<table>
+				<tr>
+					<th>Language</th>
+					<th>Writing level</th>
+					<th>Oral skills level</th>
+				</tr>
+				<tr>
+					<th>English</th>
+					<td>Advanced</td>
+					<td>Medium</td>
+				</tr>
+				<tr>
+					<th>Spanish</th>
+					<td>Medium</td>
+					<td>Advanced</td>
+				</tr>
+				<tr>
+					<th>Catalan</th>
+					<td>Advanced</td>
+					<td>Advanced</td>
+				</tr>
+			</table>
+			<a href="#top" id="end">Top</a>
 	</body>
 </html>
